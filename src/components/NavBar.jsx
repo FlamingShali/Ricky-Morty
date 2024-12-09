@@ -33,7 +33,7 @@ const NavBar = () => {
     <StyledNavBar>
       <Header />
       <StyledNavLinks>
-        <StyledLink>Characters</StyledLink>
+        <StyledLink to="/characters ">Characters</StyledLink>
         <StyledLink>Location</StyledLink>
         <StyledLink>Epizode</StyledLink>
       </StyledNavLinks>

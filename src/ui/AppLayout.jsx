@@ -15,7 +15,8 @@ const AppLayout = () => {
   return (
     <StyledAppLayout>
       <NavBar />
-      <HeroSection />
+      
+      <Outlet />
     </StyledAppLayout>
   );
 };
