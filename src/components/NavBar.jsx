@@ -11,7 +11,7 @@ const StyledNavBar = styled.div`
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(#15803d, #dcfce7);
-  width: 2560px;
+  width: 100%;
 `;
 
 const StyledNavLinks = styled.div`

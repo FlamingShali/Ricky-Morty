@@ -6,16 +6,16 @@ import HeroSection from "../components/HeroSection";
 const StyledAppLayout = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
- 
+  background-image: linear-gradient(#15803d, #dcfce7);
   align-items: center;
+  
 `;
 
 const AppLayout = () => {
   return (
     <StyledAppLayout>
       <NavBar />
-      
+
       <Outlet />
     </StyledAppLayout>
   );

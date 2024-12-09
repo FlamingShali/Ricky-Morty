@@ -98,9 +98,6 @@ const GlobalStyles = createGlobalStyle`
   --border-radius-sm: 5px;
   --border-radius-md: 7px;
   --border-radius-lg: 9px;
-
-  /* For dark mode */
-
 }
 
 *,
@@ -110,7 +107,7 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* Creating animations for dark mode */
+  
   transition: background-color 0.3s, border 0.3s;
 }
 
