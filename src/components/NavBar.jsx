@@ -33,9 +33,9 @@ const NavBar = () => {
     <StyledNavBar>
       <Header />
       <StyledNavLinks>
-        <StyledLink to="/characters ">Characters</StyledLink>
-        <StyledLink>Location</StyledLink>
-        <StyledLink>Epizode</StyledLink>
+        <StyledLink to="/characters">Characters</StyledLink>
+        <StyledLink to="/locations">Location</StyledLink>
+        <StyledLink to="/epizodes">Epizode</StyledLink>
       </StyledNavLinks>
     </StyledNavBar>
   );
